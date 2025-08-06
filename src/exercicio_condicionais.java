@@ -131,7 +131,6 @@ public class exercicio_condicionais {
 
         // Ex. 7
 
-
         // Ex. 8
 
         sc.close();
