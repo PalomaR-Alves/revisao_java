@@ -1,3 +1,5 @@
+package sequencial;
+
 public class func_matematicas {
     public static void main(String[] args) {
         double x = 3.0;

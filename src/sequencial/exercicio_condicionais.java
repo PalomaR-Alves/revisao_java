@@ -1,3 +1,5 @@
+package sequencial;
+
 import java.util.Locale;
 import java.util.Scanner;
 import static java.lang.Math.abs;
@@ -97,7 +99,7 @@ public class exercicio_condicionais {
         */
 
         // Ex. 6
-        /*
+
         double x;
 
         System.out.println("Insira um número: ");
@@ -127,11 +129,6 @@ public class exercicio_condicionais {
         if (x > 75 && x <= 100) {
             System.out.println("Intervalo (75, 100]");
         }
-        */
-
-        // Ex. 7
-
-        // Ex. 8
 
         sc.close();
 
