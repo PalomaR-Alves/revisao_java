@@ -9,18 +9,24 @@ public class main_product {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product p = new Product();
         System.out.println("Enter product data");
         System.out.print("Name: ");
-        p.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        p.price = sc.nextDouble();
+        double price = sc.nextDouble();
+        /*
         System.out.print("Quantity: ");
-        p.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+        */
+
+        Product p = new Product(name, price);
+
+        p.setName("Computer");
+        System.out.println("Updated name: " + p.getName());
 
         System.out.println("Product data: " + p); // usando toString
 
-        System.out.println("\nEnter the number of products to be added in stock: ");
+        System.out.print("\nEnter the number of products to be added in stock: ");
         int quantity = sc.nextInt();
         p.addProducts(quantity);
 
@@ -28,7 +34,7 @@ public class main_product {
         System.out.println("Updated data: " + p);
 
         System.out.println();
-        System.out.println("Enter the number of products to be removed from stock: ");
+        System.out.print("Enter the number of products to be removed from stock: ");
         quantity = sc.nextInt();
         p.removeProducs(quantity);
 
