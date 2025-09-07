@@ -1,4 +1,4 @@
-package poo;
+package intro_poo;
 
 public class Product {
     private String name;

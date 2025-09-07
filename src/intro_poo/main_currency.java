@@ -1,4 +1,4 @@
-package poo;
+package intro_poo;
 
 import java.util.Locale;
 import java.util.Scanner;

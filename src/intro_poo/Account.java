@@ -1,4 +1,4 @@
-package poo;
+package intro_poo;
 
 public class Account {
 
