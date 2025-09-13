@@ -7,6 +7,15 @@
       <sourceFolder url="file://$MODULE_DIR$/intro" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/composicao/pedidos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/composicao/post" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Account" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Conta" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Employee" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Produto" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Shape" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/excecoes/Excecao" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/excecoes/Reservation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heranca/Tax" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/excecoes/Account" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
