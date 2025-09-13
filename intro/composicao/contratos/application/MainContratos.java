@@ -2,7 +2,6 @@ package application;
 
 import entities.Department;
 import entities.HourContract;
-import entities.Worker;
 import entities.enums.WorkerLevel;
 
 import java.time.LocalDate;
